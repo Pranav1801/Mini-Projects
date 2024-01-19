@@ -8,7 +8,6 @@ function changeClick(){
     document.body.style.background = colorPicker;
 }
 
-
 // Randomly Changing Background Color
 const generateRandomColor = () => {
     var letters = '0123456789ABCDEF';

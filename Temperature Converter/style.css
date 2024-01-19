@@ -1,0 +1,29 @@
+body{
+    background-color: #1A2421;
+}
+
+.header{
+    color: white;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5cm;
+}
+
+u{
+    padding-bottom:10px;
+    text-decoration:none;
+    border-bottom:3px solid white;
+}
+
+input{
+    border-radius: 40px;
+    padding: 10px 24px;
+    background-color: #33292F;
+    margin-left: 0.5rem;
+    color: white;
+    width: 300px;
+}
+
+input[type=text]:focus{
+    box-shadow: 0 0 5pt 2pt cyan;
+    outline-width: 0px;
+}
