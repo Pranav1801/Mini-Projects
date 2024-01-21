@@ -17,13 +17,21 @@ u{
 input{
     border-radius: 40px;
     padding: 10px 24px;
+    border: 0px;
     background-color: #33292F;
     margin-left: 0.5rem;
     color: white;
     width: 300px;
 }
 
-input[type=text]:focus{
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]:focus{
     box-shadow: 0 0 5pt 2pt cyan;
     outline-width: 0px;
 }

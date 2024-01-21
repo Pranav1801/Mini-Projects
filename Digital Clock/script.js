@@ -12,7 +12,7 @@ function fetchCurrentTime(){
 
     t = setTimeout(function() {
         fetchCurrentTime()
-    }, 500);
+    }, 100);
 }
 
 fetchCurrentTime();
