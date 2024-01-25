@@ -1,0 +1,77 @@
+body{
+    background-color: #FFE500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    color: black;
+    line-height : 1rem;
+    text-align: center;
+    font-size: larger;
+}
+
+.form{
+    margin-top: 4%;
+    text-align: center;
+    font-size: large;
+}
+
+h2{
+    text-align: center;
+}
+
+input{
+    border-radius: 40px;
+    padding: 10px 24px;
+    border: 3px solid black;
+    background-color: #FFE500;
+    margin-left: 0.5rem;
+    color: black;
+    width: 300px;
+    padding-left: 3.5%;
+}
+
+#name{
+    background-image: url("https://img.icons8.com/ios/50/domain.png");
+    background-position: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#url{
+    background: url("https://img.icons8.com/glyph-neue/64/link.png");
+    background-repeat: no-repeat;
+    background-position: 8px;
+    background-size: contain;
+}
+
+#save{
+    width: 20%;
+    height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+.container{
+    color: black;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: larger;
+}
+
+.container button{
+    border-radius: 40px;
+    padding: 10px 24px;
+    border: 0px;
+    background-color: black;
+    margin-left: 0.5rem;
+    color: white;
+    width: 150px;
+}
+
+.card {
+    line-height: 2cm;
+}
